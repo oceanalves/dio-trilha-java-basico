@@ -1,18 +1,56 @@
-## Getting Started
+# Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Simulando Uma Conta Bancária Através Do Terminal/Console
+<p align="center">
+        <img width='200' height='140' src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg" />
+    </p>
 
-## Folder Structure
+# DIO - Trilha Java Básico
 
-The workspace contains two folders by default, where:
+- [www.dio.me](www.dio.me)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#### Autores
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- [Gleyson Sampaio](https://github.com/glysns)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Sintaxe - Desafio
 
-## Dependency Management
+Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
+
+###### Revise sobre regras de declaração de variáveis
+
+| Atributo  | Tipo     | Exemplo   
+| --------- | ---------| ------- 
+| Numero    | Inteiro  | 1021 
+| Agencia   | Texto    | 067-8
+| Nome Cliente | Texto    | MARIO ANDRADE
+| Saldo | Decimal |237.48
+
+###### Revise sobre terminal, main args e a classe Scanner
+
+2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+
+- Programa: "Por favor, digite o número da Agência !"
+- Usuário: 1021 *(depois ENTER para o próximo campo)*
+
+###### Revise sobre concatenação e classe String com método concat
+
+3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+
+*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+
+Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+
+
+<a href="https://www.linkedin.com/in/oceanalves/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/56139923?v=4" width="100px;" alt=""/>
+<h1>OCEAN Alves</h1>  
+
+[![Linkedin Badge](https://img.shields.io/badge/-OceanAlves-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/oceanalves/)](https://www.linkedin.com/in/oceanalves/)
+[![Instagram Badge](https://img.shields.io/badge/-OceanAlves-c14438?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/oceanalves/)](https://github.com/oceanalves)
+<hr>
+
+Este notebook foi criado para fins de estudos.
